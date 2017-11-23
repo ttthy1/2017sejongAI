@@ -34,7 +34,9 @@
     >Probability: 0.62
 
 - 연구 가설 2. 부정어 ( not, never, no 등)을 많이 사용할 수록 예측의 정확도가 떨어진다.  
-  
+    
+    [코드](https://github.com/ttthy1/2017sejongAI/blob/master/week11/sentiment_analyzer_neg.py)
+   
   부정어가 포함된 선행 연구의 데이터와 리뷰에 부정어가 사용된 새로운 데이터를 취합하여 분석한 결과, 부정어를 사용하는 경우 예측의 정확도가 떨어졌다. 특히 be동사의 부정형, 혹은 형용사 앞에 부정어를 사용하는 경우 실제 리뷰의 sentiment와는 다르게 sentiment를 예측하는 경우가 많았다. 즉, 부정어 또한 예측의 정확도에 영향을 미치는 요인이며, 예측의 정확도와 부정어 사이에는 상관관계가 존재한다.  
     
     >Review: There is no meaningless dialog; not a single extraneous character.  
