@@ -53,17 +53,17 @@
     >Predicted sentiment: Positive  
     >Probability: 0.7  
   
->Review: This is a great, awesome movie. This is a funny movie. This is a beautiful, perfect movie.  
->Predicted sentiment: Positive  
->Probability: 0.84  
+    >Review: This is a great, awesome movie. This is a funny movie. This is a beautiful, perfect movie.  
+    >Predicted sentiment: Positive  
+    >Probability: 0.84  
   
->Review: This is a great, awesome movie. This is a funny movie. This is a beautiful movie. This is a perfect movie.  
->Predicted sentiment: Positive  
->Probability: 0.89  
+    >Review: This is a great, awesome movie. This is a funny movie. This is a beautiful movie. This is a perfect movie.  
+    >Predicted sentiment: Positive  
+    >Probability: 0.89  
   
->Review: This is a great movie. This is a awesome movie. This is a funny movie. This is a beautiful movie. This is a perfect movie.  
->Predicted sentiment: Positive  
->Probability: 0.93  
+    >Review: This is a great movie. This is a awesome movie. This is a funny movie. This is a beautiful movie. This is a perfect movie.  
+    >Predicted sentiment: Positive  
+    >Probability: 0.93  
 
 ## **6. 결론 및 한계점**  
 세 가지의 연구 가설의 타당성을 분석해 본 결과, 예측의 정확도와 구두점,부정어 사이에는 각각 상관관계가 존재하는 것으로 예측해 볼 수 있으며, 문장의 수와 Probability 수치에는 양의 상관관계가 있는 것으로 예측해 볼 수 있다. 따라서, 리뷰 내용에서 구두점과 부정어 사용이 낮을수록 더 정확한 예측이 가능하며, 문장의 수가 복문일 경우 Probability가 높은 결과를 도출하는 것이 가능하다.
