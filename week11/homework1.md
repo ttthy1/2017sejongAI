@@ -19,9 +19,7 @@
 마지막으로 연구 가설 3의 타당성을 판단하기 위해, 같은 의미의 문장을 단일 문장, 복수의 문장으로 구성한 데이터를 분석하였다. 복수 문장의 수는 2-5개까지로 설정하였다.
 
 ## **5. 연구결과**  
-- 연구 가설 1. 구두점(Punctuation)이 많을수록 예측의 정확도가 떨어진다.  
-    
-    [코드](https://github.com/ttthy1/2017sejongAI/blob/master/week11/sentiment_analyzer_punc.py)  
+- 연구 가설 1. 구두점(Punctuation)이 많을수록 예측의 정확도가 떨어진다.  [코드](https://github.com/ttthy1/2017sejongAI/blob/master/week11/sentiment_analyzer_punc.py)  
     
   데이터의 구두점을 제거하여 분석한 결과, input 데이터의 sentiment와 predicted sentiment가 일치하는 결과가 도출되는 경우의 수가 1증가 하였다. 해당 데이터에서 제거한 구두점은 ‘!!’, ‘’’, ‘,’, ‘.’ 4가지 이다. 또한 실제 내용과 예측 결과의 불일치가 그대로 유지되는 경우에도 예측의 Probability 수치가 낮아지는 경우가 많았다. 따라서 구두점은 예측의 정확도에 영향을 미치는 요인이다. 즉, 예측의 정확도와 구두점 사이에는 상관관계가 존재한다.  
   
@@ -33,9 +31,7 @@
     >Predicted sentiment: Negative  
     >Probability: 0.62
 
-- 연구 가설 2. 부정어 ( not, never, no 등)을 많이 사용할 수록 예측의 정확도가 떨어진다.  
-    
-    [코드](https://github.com/ttthy1/2017sejongAI/blob/master/week11/sentiment_analyzer_neg.py)  
+- 연구 가설 2. 부정어 ( not, never, no 등)을 많이 사용할 수록 예측의 정확도가 떨어진다.  [코드](https://github.com/ttthy1/2017sejongAI/blob/master/week11/sentiment_analyzer_neg.py)  
    
   부정어가 포함된 선행 연구의 데이터와 리뷰에 부정어가 사용된 새로운 데이터를 취합하여 분석한 결과, 부정어를 사용하는 경우 예측의 정확도가 떨어졌다. 특히 be동사의 부정형, 혹은 형용사 앞에 부정어를 사용하는 경우 실제 리뷰의 sentiment와는 다르게 sentiment를 예측하는 경우가 많았다. 즉, 부정어 또한 예측의 정확도에 영향을 미치는 요인이며, 예측의 정확도와 부정어 사이에는 상관관계가 존재한다.  
     
