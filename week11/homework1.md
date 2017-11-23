@@ -47,7 +47,7 @@
     >Probability: 0.58  
     
     >Review: Not terrifying, The main problem is that I don't see any message in this movie, nor any pleasant feature. It is not funny, it is not horrifying or realistic enough, there is no real character development, no interesting statements about anything. It is an empty, overrated mess. It is basically a shock-parade with old instrumental background music.  
-    >Predicted sentiment: Positive
+    >Predicted sentiment: Positive  
     >Probability: 0.86
     
     >Review: nothing really interesting or compelling ever happens in this.  
