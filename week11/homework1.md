@@ -31,7 +31,7 @@
     >Predicted sentiment: Negative  
     >Probability: 0.62
 
-- 연구 가설 2. 부정어 ( not, never, no 등)을 많이 사용할 수록 예측의 정확도가 떨어진다.  [코드](https://github.com/ttthy1/2017sejongAI/blob/master/week11/sentiment_analyzer_neg.py)  
+- 연구 가설 2. 부정어 ( not, never, no 등)을 많이 사용할 수록 예측의 정확도가 떨어진다.  [(코드)](https://github.com/ttthy1/2017sejongAI/blob/master/week11/sentiment_analyzer_neg.py)  
      
   부정어가 포함된 선행 연구의 데이터와 리뷰에 부정어가 사용된 새로운 데이터를 취합하여 분석한 결과, 부정어를 사용하는 경우 예측의 정확도가 떨어졌다. 특히 be동사의 부정형, 혹은 형용사 앞에 부정어를 사용하는 경우 실제 리뷰의 sentiment와는 다르게 sentiment를 예측하는 경우가 많았다. 즉, 부정어 또한 예측의 정확도에 영향을 미치는 요인이며, 예측의 정확도와 부정어 사이에는 상관관계가 존재한다.  
     
@@ -63,7 +63,7 @@
     >Predicted sentiment: Positive  
     >Probability: 0.7
       
-- 연구 가설 3. 같은 의미의 리뷰일 경우, 하나의 문장으로 문장 안에 단어를 나열하는 경우보다 복수의 문장으로 내용을 입력하는 경우 Probability가 높아진다.  [코드](https://github.com/ttthy1/2017sejongAI/blob/master/week11/sentiment_analyzer_nos.py)  
+- 연구 가설 3. 같은 의미의 리뷰일 경우, 하나의 문장으로 문장 안에 단어를 나열하는 경우보다 복수의 문장으로 내용을 입력하는 경우 Probability가 높아진다.  [(코드)](https://github.com/ttthy1/2017sejongAI/blob/master/week11/sentiment_analyzer_nos.py)  
   
   같은 의미의 리뷰를 단일 문장으로 축약한 리뷰와, 복수의 문장을 나열하는 리뷰를 비교한 결과, 복수의 문장을 나열할수록 Probability가 높아졌다. 문장의 수가 많아질수록, 예측 결과의 Probability가 증가하는 것으로 나타났다. 따라서 문장의 수와 Probability 사이에는 양의 상관관계가 있는 것으로 예측할 수 있다.  
    
